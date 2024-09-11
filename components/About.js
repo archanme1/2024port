@@ -7,12 +7,12 @@ const About = () => {
       <div className="about-inner">
         <article className="top-left">
           <div className="cavalier-content">
-            <h1>Professional Experience</h1>
+            <h1 style={{ color: "#6d83f2" }}>Professional Experience</h1>
             <p>
               I have over <strong>2 years</strong> of experience as a{" "}
-              <strong>Full Stack Web Developer</strong>. My first role was as a{" "}
-              <strong>Frontend Developer</strong> at Enter Soft Inside, where I
-              designed visually appealing web pages and built reusable
+              <strong>Web and Mobile App Developer</strong>. My first role was
+              as a <strong>Frontend Developer</strong> at Enter Soft Inside,
+              where I designed visually appealing web pages and built reusable
               components using <strong>React JS</strong> and{" "}
               <strong>Next JS</strong>. I later took on the role of a{" "}
               <strong>Full Stack Web Developer</strong> at Queen’s College of
@@ -26,7 +26,7 @@ const About = () => {
         </article>
         <article className="middle-right">
           <div className="cavalier-content">
-            <h1>Languages & Skills</h1>
+            <h1 style={{ color: "#6d83f2" }}>Languages & Skills</h1>
             <p>
               My primary programming language is <strong>JavaScript</strong>,
               and I have extensive experience with <strong>React JS</strong> as
@@ -47,7 +47,7 @@ const About = () => {
         </article>
         <article className="bottom-left">
           <div className="cavalier-content">
-            <h1>Other Technologies</h1>
+            <h1 style={{ color: "#6d83f2" }}>Other Technologies</h1>
             <p>
               My experience also includes working with cloud services such as{" "}
               <strong>AWS</strong> and <strong>Cloudflare</strong>,
