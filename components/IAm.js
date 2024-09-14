@@ -34,7 +34,7 @@ const IAm = () => {
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
           <a
-            href={"https://github.com/archanme1"}
+            href={"https://x.com/archanme1"}
             target="_blank"
             rel="noopener noreferrer"
           >
