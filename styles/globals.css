@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 html,
 body {
   padding: 0;
@@ -12,13 +12,13 @@ body.blur {
 }
 body.blur #content > * {
   filter: blur(5px) brightness(0.7);
-  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   pointer-events: none;
   user-select: none;
 }
 
 html {
-  background: radial-gradient(ellipse at bottom,#1b2735 0,#090a0f 100%);
+  background: radial-gradient(ellipse at bottom, #1b2735 0, #090a0f 100%);
   height: 100%;
   background-attachment: fixed;
   -webkit-text-size-adjust: 100%;
@@ -37,19 +37,22 @@ bold {
   font-weight: 700;
 }
 
-@import './Home.css';
-@import './FloatingEmail.css';
-@import './Navbar.css';
-@import './About.css';
-@import './Projects.css';
-@import './Footer.css';
+@import "./Home.css";
+@import "./FloatingEmail.css";
+@import "./Navbar.css";
+@import "./About.css";
+@import "./Projects.css";
+@import "./Footer.css";
+@import "./BentoAbout.css";
+@import "./Blinker.css";
 
 @font-face {
-  font-family: 'Mandatory Plaything';
-  src: url('/fonts/MandatoryPlaything-nRRd0.eot');
-  src: url('/fonts/MandatoryPlaything-nRRd0.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/MandatoryPlaything-nRRd0.woff2') format('woff2'),
-       url('/fonts/MandatoryPlaything-nRRd0.woff') format('woff'),
-       url('/fonts/MandatoryPlaything-nRRd0.ttf')  format('truetype'),
-       url('/fonts/MandatoryPlaything-nRRd0.svg#Mandatory Plaything') format('svg');
+  font-family: "Mandatory Plaything";
+  src: url("/fonts/MandatoryPlaything-nRRd0.eot");
+  src: url("/fonts/MandatoryPlaything-nRRd0.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/MandatoryPlaything-nRRd0.woff2") format("woff2"),
+    url("/fonts/MandatoryPlaything-nRRd0.woff") format("woff"),
+    url("/fonts/MandatoryPlaything-nRRd0.ttf") format("truetype"),
+    url("/fonts/MandatoryPlaything-nRRd0.svg#Mandatory Plaything") format("svg");
 }

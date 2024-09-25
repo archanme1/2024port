@@ -3,6 +3,8 @@ import LandingPage from "../components/LandingPage";
 import About from "../components/About";
 import Footer from "../components/Footer";
 import Projects from "../components/Projects";
+import BentoAbout from "../components/BentoAbout";
+import Blinker from "../components/Blinker";
 
 export default function Home() {
   return (
@@ -31,7 +33,9 @@ export default function Home() {
       <main className="full-page" id="content">
         <LandingPage />
         <About />
+        <BentoAbout />
         <Projects />
+        <Blinker />
       </main>
       <div orientation="right" className="email-container">
         <div className="email-display">
