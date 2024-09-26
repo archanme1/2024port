@@ -7,12 +7,17 @@
   justify-content: center;
 }
 
+.cavalier-content p {
+  /* font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace; */
+}
+
 .parallax-outer {
   z-index: -1;
   position: absolute;
 }
 
-.parallax-outer p, .parallax-outer svg {
+.parallax-outer p,
+.parallax-outer svg {
   color: rgb(48, 48, 48);
   z-index: -1;
   left: 0px;
@@ -40,7 +45,8 @@
   }
 }
 
-.top-left, .bottom-left {
+.top-left,
+.bottom-left {
   text-align: left;
   position: relative;
 }
@@ -52,7 +58,9 @@
 }
 
 @media (min-width: 701px) {
-  .top-left p, .middle-right p, .bottom-left p  {
+  .top-left p,
+  .middle-right p,
+  .bottom-left p {
     width: 32vw;
     font-size: 14px;
     -webkit-transition-delay: 310ms;
@@ -60,7 +68,9 @@
   }
 }
 
-.top-left p, .middle-right p, .bottom-left p {
+.top-left p,
+.middle-right p,
+.bottom-left p {
   line-height: 1.6;
   max-width: 500px;
 }

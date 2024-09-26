@@ -1,6 +1,6 @@
 .about-section {
   padding: 2rem;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .grid-container {
@@ -43,7 +43,7 @@
 .grid-subtext {
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   font-size: 12px;
-  font-family: "Montserrat", "sans-serif";
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   padding: 0px 20px;
   text-align: center;
   letter-spacing: 1px;

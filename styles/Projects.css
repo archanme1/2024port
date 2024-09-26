@@ -48,8 +48,8 @@
   border-radius: 4px;
   background-color: #112240;
   color: #a8b2d1;
-  font-size: 14px;
-  font-family: "Montserrat", "sans-serif";
+  font-size: 12px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 }
 
 .project-tech-list {

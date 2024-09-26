@@ -1,0 +1,143 @@
+/* Main section and wrapper styling */
+.experience-section {
+  margin: 80px 0;
+}
+
+.experience-wrapper {
+  width: 100%;
+  color: #f5f5f5; /* equivalent to white-600 */
+}
+
+.experience-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(109, 131, 242);
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+/* Work Container */
+.work-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 1024px) {
+  .work-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Canvas styling (currently commented out in React) */
+.work-canvas {
+  grid-column: span 1;
+  border-radius: 12px;
+  background-color: #1c1c1c; /* equivalent to black-200 */
+  border: 1px solid #333; /* equivalent to black-300 */
+}
+
+/* Work Content */
+.work-content {
+  grid-column: span 3;
+  border-radius: 12px;
+  background-color: #1c1c1c; /* equivalent to black-200 */
+  border: 1px solid #333; /* equivalent to black-300 */
+}
+
+.work-list {
+  padding: 20px 10px;
+}
+
+@media (min-width: 640px) {
+  .work-list {
+    padding: 40px 20px;
+  }
+}
+
+/* Individual Work Experience Cards */
+.work-content_container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+  border-radius: 12px;
+}
+
+.work-content_container:hover {
+  background-color: #333;
+}
+
+/* Work Logo */
+.work-logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 10px 0;
+}
+
+.work-content_logo {
+  width: 64px;
+  height: 64px;
+  padding: 8px;
+  border-radius: 24px;
+  background-color: #666;
+  position: relative;
+}
+@media (max-width: 640px) {
+  .work-logo-wrapper {
+    display: none;
+  }
+}
+
+/* Vertical Bar */
+.work-content_bar {
+  width: 2px;
+  height: 100px;
+  background-color: #333;
+  transition: background-color 0.5s ease-in-out;
+  flex-grow: 1;
+}
+
+.work-content_container:hover .work-content_bar {
+  background-color: rgb(109, 131, 242);
+}
+
+.work-content_container:last-child .work-content_bar {
+  display: none;
+}
+
+/* Work Details */
+.work-details {
+}
+
+@media (min-width: 640px) {
+  .work-details {
+    padding: 10px;
+  }
+}
+
+.work-name {
+  font-weight: bold;
+  font-size: 22px;
+  color: rgb(109, 131, 242);
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+.work-position {
+  font-size: 0.875rem;
+}
+
+.work-title {
+  word-spacing: 3px;
+  font-size: 12px;
+  color: #c1c2c59d;
+  transition: color 0.5s ease-in-out;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+.work-content_container:hover .work-title {
+}

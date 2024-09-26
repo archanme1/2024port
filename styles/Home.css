@@ -96,12 +96,10 @@
   background-color: rgb(35, 35, 35);
   box-shadow: rgb(0 0 0 / 5%) 0px 5px 10px;
   margin-top: 20px;
-
-  font-family: "Montserrat", "sans-serif";
 }
 
 .code-section pre {
-  font-family: "Montserrat", "sans-serif";
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   font-size: 0.9rem;
 }
 

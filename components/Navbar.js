@@ -50,6 +50,9 @@ const Navbar = () => {
           <ReactScrollLink to="about" spy={true} smooth={true} offset={-125}>
             About
           </ReactScrollLink>
+          <ReactScrollLink to="work" spy={true} smooth={true} offset={-125}>
+            Works
+          </ReactScrollLink>
           <ReactScrollLink to="projects" spy={true} smooth={true} offset={-125}>
             Projects
           </ReactScrollLink>
@@ -98,6 +101,17 @@ const Navbar = () => {
                     onClick={() => handleHamburgerClick()}
                   >
                     About
+                  </ReactScrollLink>
+                </li>
+                <li>
+                  <ReactScrollLink
+                    to="work"
+                    spy={true}
+                    smooth={true}
+                    offset={-125}
+                    onClick={() => handleHamburgerClick()}
+                  >
+                    Works
                   </ReactScrollLink>
                 </li>
                 <li>

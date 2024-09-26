@@ -45,6 +45,7 @@ bold {
 @import "./Footer.css";
 @import "./BentoAbout.css";
 @import "./Blinker.css";
+@import "./Experiences.css";
 
 @font-face {
   font-family: "Mandatory Plaything";
