@@ -3,19 +3,19 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  padding: 0.5rem; /* Adjust as needed */
-  border-radius: 9999px; /* Full circle */
+  padding: 0.5rem;
+  border-radius: 9999px;
 }
 
 .btn-ping {
 }
 
 .btn-ping_dot {
-  animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite; /* Slower ping effect */
-  border-radius: 9999px; /* Full circle */
-  height: 24px; /* Size of the dot */
-  width: 24px; /* Set width of the dot to 10px */
-  background-color: #22c55e; /* Solid green */
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  border-radius: 9999px;
+  height: 18px;
+  width: 18px;
+  background-color: #22c55e;
 }
 
 @keyframes ping {
@@ -28,7 +28,7 @@
   }
 
   100% {
-    transform: scale(2);
+    transform: scale(1);
     opacity: 0;
   }
 }

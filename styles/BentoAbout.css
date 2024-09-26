@@ -34,6 +34,10 @@
 .grid-text {
   text-align: center;
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 
 .grid-subtext {
@@ -66,6 +70,10 @@
   transform-origin: 70% 70%;
   display: inline-block;
   font-size: 18px;
+}
+
+.mailchimp {
+  color: rgb(109, 131, 242);
 }
 
 /* Responsive Design */

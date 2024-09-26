@@ -8,7 +8,7 @@ const Projects = () => {
       {/* JUNCIFY */}
       <article className="project-wrapper">
         <div className="project-content">
-          <p className="project-overline">Featured Project</p>
+          <h1 className="project-overline">Featured Project</h1>
           <h3 className="project-title">
             <a
               href="https://juncify.com"

@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMailchimp } from "@fortawesome/free-brands-svg-icons";
 
 const BentoAbout = () => {
   const [hasCopied, setHasCopied] = useState(false);
@@ -29,9 +31,9 @@ const BentoAbout = () => {
               />
             </div>
             <p className="grid-subtext">
-              A computer science student with years of experience, I have honed
-              my skills in both frontend and backend dev, creating dynamic and
-              responsive websites.
+              A computer science graduate with years of experience in web and
+              mobile app development, Currently residing in Canada, Have a
+              passion for technology and sports.
             </p>
           </div>
         </div>
@@ -50,10 +52,9 @@ const BentoAbout = () => {
               />
             </div>
             <p className="grid-subtext">
-              I love solving problems and building things through code. I
-              believe as long as there is good documention, I can adapt and
-              excel. I enjoy exploring new technologies, and enhancing my
-              skills.
+              I love building things through code. I believe as long as there is
+              good documention, I can adapt and excel. I enjoy exploring new
+              technologies, and enhancing my skills.
             </p>
           </div>
         </div>
@@ -72,7 +73,13 @@ const BentoAbout = () => {
               />
             </div>
             <p className="grid-text">
-              Reach out to me <span className="waving-hand">📩</span>
+              Reach out to me
+              <FontAwesomeIcon
+                icon={faMailchimp}
+                width={32}
+                height={32}
+                className="waving-hand mailchimp"
+              />
             </p>
             <div className="copy-container" onClick={handleCopy}>
               <Image
