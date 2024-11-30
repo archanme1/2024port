@@ -57,7 +57,7 @@ const Navbar = () => {
             Projects
           </ReactScrollLink>
           \
-          <a href="/archanme1_resume.pdf" className="resume-link">
+          <a href="/archanme1.pdf" className="resume-link">
             Resume
           </a>
         </div>
@@ -126,7 +126,7 @@ const Navbar = () => {
                   </ReactScrollLink>
                 </li>
               </ol>
-              <a href="/archanme1_resume.pdf" className="resume-link">
+              <a href="/archanme1.pdf" className="resume-link">
                 Resume
               </a>
             </nav>

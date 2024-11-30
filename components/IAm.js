@@ -15,7 +15,7 @@ const IAm = () => {
         <p className="adjust">FULL STACK DEVELOPER</p>
       </article>
       <div className="CTAs">
-        <a className="download-resume" href="/archanme1_resume.pdf">
+        <a className="download-resume" href="/archanme1.pdf">
           Checkout Resume
         </a>
         <div className="socials">
